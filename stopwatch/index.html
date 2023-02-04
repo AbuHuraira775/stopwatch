@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <h1>Stop Watch</h1> -->
+    
+    <div class="wrapper">
+
+       
+        <div class="numbers">
+            <p id="hrs" title="hours">0</p>
+            <span class="dot">:</span>
+            <p id="mins" title="minutes"> 0</p>
+            <span class="dot">:</span>
+            <p id="sec" title="seconds"> 0</p>
+            <span class="dot">:</span>
+            <p id="ns" title="miliseconds"> 0</p>
+        </div>
+
+        <div class="txt">
+            <p class="hrs">Hours</p>
+            <p class="mins">Minutes</p>
+            <p class="sec">Seconds</p>
+            <p class="ns">Milli Seconds</p>
+        </div>
+
+        <div class="btns">
+
+            <button id="start" >START</button>
+            <button id="pause" disabled>PAUSE</button>
+            <button id="reset" disabled>RESET</button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
